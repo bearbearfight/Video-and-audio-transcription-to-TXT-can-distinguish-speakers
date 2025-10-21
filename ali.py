@@ -26,7 +26,7 @@ def test_api_with_cos_url(simulate=False):
     print(f"\n🎯 {'ASR API测试 - 模拟模式' if simulate else 'ASR API测试 - 真实模式'}...")
     
     # 使用带反引号的COS URL
-    cos_url = "`https://bestu-bucket-python.oss-cn-shanghai.aliyuncs.com/68e85f700f620c466212e6fc.mp4`"
+    cos_url = "`https://存储桶.oss-cn-shanghai.aliyuncs.com/68e85f700f620c466212e6fc.mp4`"
     
 
     # ossutil cp oss://bestu-bucket-python/68e85f700f620c466212e6fc.mp4 C:/Users/Administrator/Desktop
